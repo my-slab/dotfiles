@@ -1,3 +1,14 @@
 *
-!.*
+
+!/.bash_profile
+!/.bashrc
+!/.gitconfig
 !/.gitignore
+!/.hushlogin
+!/.path
+!/.profile
+!/.zlogin
+!/.zshenv
+!/.zshrc
+!/.zshr
+!/README.md
