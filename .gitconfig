@@ -1,0 +1,5 @@
+[user]
+	name = mylsb
+	email = mitchell.stewart@mylsb.email
+[push]
+	default = simple
