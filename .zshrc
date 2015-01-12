@@ -97,5 +97,8 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
+# Syntax highlighting: https://github.com/zsh-users/zsh-syntax-highlighting
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Z
+. `brew --prefix`/etc/profile.d/z.sh
