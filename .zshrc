@@ -93,12 +93,30 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# alias ohmyzsh="mate ~/.oh-my-zsh"i
+#
+# Activate the virtual environment from the current or child directory
+alias venv="source env/bin/activate"
+alias ..venv="source ../env/bin/activate"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin/" # Add psql
 
 # Syntax highlighting: https://github.com/zsh-users/zsh-syntax-highlighting
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+    export DOCKER_CERT_PATH=/Users/mylsb/.boot2docker/certs/boot2docker-vm
+        export DOCKER_TLS_VERIFY=1
+	    export DOCKER_HOST=tcp://192.168.59.103:2376
+
 # Z
 . `brew --prefix`/etc/profile.d/z.sh
+
+eval "$(pyenv init -)"
+
+# Virtualenvwrapper
+export WORKON_HOME=$HOME/Envs
+export PROJECT_HOME=$HOME/Projects
+source /usr/local/bin/virtualenvwrapper.sh
+eval "$(thefuck --alias fuck)"
