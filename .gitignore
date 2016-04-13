@@ -1,3 +1,7 @@
+.envrc
+*.sublime-*
+.DS_Store
+
 *
 
 !/.bash_profile

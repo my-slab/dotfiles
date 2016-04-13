@@ -6,7 +6,8 @@
 [mergetool]
 	keepBackup = true
 [core]
-	excludesfile = /Users/mylsb/.gitignore_global
+	excludesfile = ~/.gitignore
+	exludesfile = /Users/mylsb/.gitignore
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
