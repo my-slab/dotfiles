@@ -14,7 +14,9 @@ function install_powerline_precmd() {
   precmd_functions+=(powerline_precmd)
 }
 
-install_powerline_precmd
+if [ "$TERM" != "linux" ]; then
+  install_powerline_precmd
+fi
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
