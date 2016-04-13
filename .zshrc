@@ -120,3 +120,4 @@ export WORKON_HOME=$HOME/Envs
 export PROJECT_HOME=$HOME/Projects
 source /usr/local/bin/virtualenvwrapper.sh
 eval "$(thefuck --alias fuck)"
+eval "$(direnv hook zsh)"
