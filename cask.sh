@@ -6,6 +6,8 @@ brew cask install docker
 
 brew cask install google-chrome
 
+brew cask install insomnia
+
 brew cask install iterm
 
 brew cask install slack
