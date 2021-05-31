@@ -1,19 +1,13 @@
-brew cask install boom
-
-brew cask install datagrip
-
-brew cask install docker
-
-brew cask install google-chrome
-
-brew cask install insomnia
-
-brew cask install iterm
-
-brew cask install slack
-
-brew cask install spotify
-
-brew cask install telegram
-
-brew cask install visual-studio-code
+brew install --cask 1password
+brew install --cask boom
+brew install --cask docker
+brew install --cask firefox
+brew install --cask google-chrome
+brew install --cask hey
+brew install --cask iterm2
+brew install --cask signal
+brew install --cask slack
+brew install --cask spotify
+brew install --cask postman
+brew install --cask visual-studio-code
+brew install --cask zoom
