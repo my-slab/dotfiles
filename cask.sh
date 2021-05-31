@@ -5,6 +5,7 @@ brew install --cask figma
 brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask hey
+brew install --cask insomnia
 brew install --cask iterm2
 brew install --cask signal
 brew install --cask slack
