@@ -1,6 +1,7 @@
 brew install --cask 1password
 brew install --cask boom
 brew install --cask docker
+brew install --cask figma
 brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask hey
