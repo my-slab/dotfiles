@@ -8,9 +8,6 @@ brew install --cask hey
 brew install --cask insomnia
 brew install --cask iterm2
 brew install --cask miro
-brew install --cask signal
 brew install --cask slack
 brew install --cask spotify
-brew install --cask postman
 brew install --cask visual-studio-code
-brew install --cask zoom
