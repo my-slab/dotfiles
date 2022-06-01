@@ -1,4 +1,4 @@
-ssh-keygen -t rsa -b 4096 -C "mitch.stewart@hey.com"
+ssh-keygen -t ed25519 -C "mitch.stewart@hey.com"
 
 eval "$(ssh-agent -s)"
 
