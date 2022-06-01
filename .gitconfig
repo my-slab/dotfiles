@@ -1,3 +1,6 @@
 [user]
 	name = my-slab
 	email = mitch.stewart@hey.com
+	
+[pull]
+	rebase = true
