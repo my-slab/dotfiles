@@ -7,7 +7,7 @@ touch ~/.ssh/conig
 echo "Host *
  AddKeysToAgent yes
  UseKeychain yes
- IdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
+ IdentityFile ~/.ssh/id_ed25519" > ~/.ssh/config
 
 ssh-add -K ~/.ssh/id_ed25519
 
