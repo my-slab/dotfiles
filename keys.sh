@@ -10,3 +10,5 @@ echo "Host *
  IdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
 
 ssh-add -K ~/.ssh/id_ed25519
+
+pbcopy < ~/.ssh/id_ed25519.pub
